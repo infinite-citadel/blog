@@ -15,16 +15,7 @@
     }
   },
   "mail": {
-    "transport": "SMTP",
-    "options": {
-      "service": "ForwardEmail",
-      "host": "smtp.forwardemail.net",
-      "port": 465,
-      "auth": {
-        "user": "info@infinite-citadel.com",
-        "pass": ""
-      }
-    }
+    "transport": "Direct"
   },
   "logging": {
     "transports": [
